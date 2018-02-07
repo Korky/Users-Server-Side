@@ -1,0 +1,19 @@
+{
+  "name": "users-server-side",
+  "version": "1.0.0",
+  "description": "REST api for User's CRUD",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Fernando J Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  }
+}
