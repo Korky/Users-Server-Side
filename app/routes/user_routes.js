@@ -58,6 +58,7 @@ module.exports = function(app, db) {
   });
     
     app.post('/users', (req, res) => {
+        console.log(req.body.user);
         const user = { 
             user_name:req.body.user_name,
             phone: req.body.phone,
